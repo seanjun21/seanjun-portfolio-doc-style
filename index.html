@@ -1,0 +1,278 @@
+<!doctype html>
+<html lang="en" prefix="og: http://ogp.me/ns#">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport"
+          content="width=device-width, user-scalable=no, initial-scale=1.0, maximum-scale=1.0, minimum-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+
+    <!--Favicons-->
+    <link rel="apple-touch-icon" sizes="180x180" href="./img/favicons/apple-touch-icon.png">
+    <link rel="icon" type="image/png" href="./img/favicons/favicon-32x32.png" sizes="32x32">
+    <link rel="icon" type="image/png" href="./img/favicons/favicon-16x16.png" sizes="16x16">
+    <link rel="manifest" href="./img/favicons/manifest.json">
+    <link rel="mask-icon" href="./img/favicons/safari-pinned-tab.svg" color="#0f2a56">
+    <meta name="theme-color" content="#ffffff">
+
+    <!--Site Preview-->
+    <meta property="og:title" content="Sean's portfolio">
+    <meta property="og:description"
+          content="Welcome to my portfolio website. I'm a full stack developer with a background in Biochemistry and Engineering. You can view my projects by clicking the images. Contact me regarding any inquiries. Let's talk code!">
+    <meta property="og:url" content="http://www.seanjun.com/">
+    <meta property="og:image" content="http://www.seanjun.com/img/sean-preview.png">
+
+    <!--Normalize/ Fonts/ Font-Awesome/ CSS-->
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/normalize/4.2.0/normalize.min.css">
+    <link href="https://fonts.googleapis.com/css?family=Roboto:400,400i,700,700i" rel="stylesheet">
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/font-awesome/4.6.3/css/font-awesome.min.css">
+    <link rel="stylesheet" href="css/style.css">
+    <title>Sean Jun</title>
+</head>
+<body>
+
+<nav>
+    <ul class="topnav" id="myTopnav">
+        <li id="masthead-nav"><a href="#masthead">SEAN</a></li>
+        <li id="about-nav"><a href="#about">ABOUT</a></li>
+        <li id="projects-nav"><a href="#projects">PROJECTS</a></li>
+        <li id="contact-nav"><a href="#footer">CONTACTS</a></li>
+        <li class="icon">
+            <a href="javascript:void(0);" onclick="myFunction()"><i class="fa fa-bars" aria-hidden="true"></i></a>
+        </li>
+    </ul>
+</nav>
+
+<header id="masthead">
+    <div class="header">
+        <h1>SEAN JUN</h1>
+        <h2>Full Stack Developer</h2>
+        <div class="email">
+            <a href="mailto:seanjun21@gmail.com">seanjun21@gmail.com</a>
+        </div>
+        <ul class="contact-list">
+            <a href="mailto:seanjun21@gmail.com" target="_blank"><i class="fa fa-envelope fa-fw"></i></a>
+            <a href="http://www.github.com/seanjun21" target="_blank"><i class="fa fa-github fa-fw"></i></a>
+            <a href="http://www.linkedin.com/in/seanjun21" target="_blank"><i class="fa fa-linkedin fa-fw"></i></a>
+            <a href="http://www.twitter.com/seanjun21" target="_blank"><i class="fa fa-twitter fa-fw"></i></a>
+        </ul>
+    </div>
+</header>
+
+<section id="about">
+    <div class="container">
+        <div class="profile">
+            <div class="picture">
+                <img class='my-picture' src="img/sean-profile.jpg" alt="me">
+            </div>
+            <div class="biography">
+                <p>
+                    Hi, I'm Sean, a full stack developer currently working at Protingent (contracted to Intel Corporation).
+                    I build web apps primarily with Angular, React/Redux, Express, NodeJS, and Mongo/Postgres.
+                    I believe that my past work and programming share something very important in common:
+                    <em><strong>"passionate work can greatly benefit our communities."</strong></em>
+                    It is my personal and professional goal to continue giving back as a developer.
+                </p>
+            </div>
+        </div>
+        <div class="resume">
+            <div class="resume-category">
+                <div class="resume-icon">
+                    <i class="fa fa-code" aria-hidden="true"></i>
+                </div>
+                <div class="resume-desc">
+                    <h3 class="skills">SKILLS</h3>
+                    <ul>
+                        <li>JavaScript/ES6, HTML5, CSS3/LESS, Node.js</li>
+                        <li>Angular, React/Redux, Express, jQuery, Bootstrap</li>
+                        <li>MongoDB, PostgreSQL, Passport, Google OAuth</li>
+                        <li>TDD with Mocha/Chai, Responsive Development</li>
+                        <li>Webpack, Socket.io, D3.js, Travis CI, Heroku</li>
+                    </ul>
+                </div>
+            </div>
+            <div class="resume-category">
+                <div class="resume-icon">
+                    <i class="fa fa-code-fork" aria-hidden="true"></i>
+                </div>
+                <div class="resume-desc">
+                    <h3 class="software">SOFTWARE</h3>
+                    <ul>
+                        <li>WebStorm, IntelliJ, Sublime Text, Atom</li>
+                        <li>Command Line/Z shell, Postman</li>
+                        <li>Git, GitHub, SourceTree</li>
+                        <li>Chrome DevTools, Screenhero, Floobits</li>
+                        <li>Microsoft Office, Evernote, Dash</li>
+                    </ul>
+                </div>
+            </div>
+        </div>
+        <div class="resume">
+            <div class="resume-category">
+                <div class="resume-icon">
+                    <i class="fa fa-graduation-cap" aria-hidden="true"></i>
+                </div>
+                <div class="resume-desc">
+                    <h3 class="education">EDUCATION</h3>
+                    <ul>
+                        <li>
+                            <h4>Thinkful</h4>
+                            <p>
+                                Web Development Intensive <span>Fall 2016</span>
+                            </p>
+                        </li>
+                        <li>
+                            <h4>Korea Advanced Institute of Science and Technology</h4>
+                            <p>
+                                M.S., Materials Science and Engineering <span>Summer 2012</span>
+                            </p>
+                        </li>
+                        <li>
+                            <h4>University of California, Santa Barbara</h4>
+                            <p>
+                                B.S., Biochemistry <span>Summer 2008</span>
+                            </p>
+                        </li>
+                    </ul>
+                </div>
+            </div>
+            <div class="resume-category">
+                <div class="resume-icon">
+                    <i class="fa fa-briefcase" aria-hidden="true"></i>
+                </div>
+                <div class="resume-desc">
+                    <h3 class="experience">EXPERIENCE</h3>
+                    <a href="docs/resume.pdf" target="_blank" class="resume-link"><span
+                            style="font-variant: small-caps"><i
+                            class="fa fa-download"></i> resume</span></a>
+                    <ul>
+                        <li>
+                            <h4>Protingent (contracted to Intel Corporation)</h4>
+                            <p>
+                                Systems Software Engineer <span>2016-Present</span>
+                            </p>
+                        </li>
+                        <li>
+                            <h4>C4 Laboratories</h4>
+                            <p>
+                                Senior Research Associate <span>2015-2016</span>
+                            </p>
+                        </li>
+                        <li>
+                            <h4>Arizona State University</h4>
+                            <p>
+                                Research Consultant <span>2013-2014</span>
+                            </p>
+                        </li>
+                    </ul>
+                </div>
+            </div>
+        </div>
+    </div>
+</section>
+
+<section id="projects">
+    <div class="container">
+        <div class="details">
+            <h2>PROJECTS</h2>
+            <p>Click on images to view the demo</p>
+        </div>
+        <div class="gallery">
+            <ul>
+                <li class="project">
+                    <a class="img" target="_blank" href="https://codeup-app.herokuapp.com">
+                        <img src="img/codeup.png">
+                    </a>
+                    <a class="info" target="_blank" href="https://github.com/seanjun21/code-up">
+                        <p>Code Up <i class="fa fa-github" aria-hidden="true"></i></p>
+                        <p>Real-time code collaboration platform that provides answers to code questions<br>
+                            <i class="fa fa-code" aria-hidden="true"></i> React, Socket.io, PostgreSQL
+                        </p>
+                    </a>
+                </li>
+                <li class="project">
+                    <a class="img" target="_blank" href="https://young-anchorage-88242.herokuapp.com/">
+                        <img src="img/korean-x.png">
+                    </a>
+                    <a class="info" target="_blank" href="https://github.com/robbykim/korean-x">
+                        <p>Korean-X <i class="fa fa-github" aria-hidden="true"></i></p>
+                        <p>App designed to teach users Korean using a spaced-repetition algorithm<br>
+                            <i class="fa fa-code" aria-hidden="true"></i> React, Node.js, Google OAuth
+                        </p>
+                    </a>
+                </li>
+                <li class="project">
+                    <a class="img" target="_blank" href="https://fridge-it.herokuapp.com/">
+                        <img src="img/fridge-it.png">
+                    </a>
+                    <a class="info" target="_blank" href="https://github.com/seanjun21/fridge-it">
+                        <p>Fridge-It <i class="fa fa-github" aria-hidden="true"></i></p>
+                        <p>Cooking app, which allows users to search for recipes based on ingredients<br>
+                            <i class="fa fa-code" aria-hidden="true"></i> React/Redux, Node.js, Express
+                        </p>
+                    </a>
+                </li>
+                <li class="project">
+                    <a class="img" target="_blank" href="https://seanjun21.github.io/soccer-hub/">
+                        <img src="img/soccer-hub.png">
+                    </a>
+                    <a class="info" target="_blank" href="https://github.com/seanjun21/soccer-hub">
+                        <p>Soccer Hub <i class="fa fa-github" aria-hidden="true"></i></p>
+                        <p>Designed for soccer fans to keep track of their teams' current ranks<br>
+                            <i class="fa fa-code" aria-hidden="true"></i> jQuery, AJAX, Hash Maps, APIs
+                        </p>
+                    </a>
+                </li>
+                <li class="project">
+                    <a class="img" target="_blank" href="http://jsvillage.org/landing/stellar-mathematics-league/">
+                        <img src="img/stellar-math.png">
+                    </a>
+                    <a class="info" target="_blank" href="https://github.com/JSVillage/stellar_math">
+                        <p>Stellar Math League <i class="fa fa-github" aria-hidden="true"></i></p>
+                        <p>Series of games and exercises designed to teach mathematics skills to children<br>
+                            <i class="fa fa-code" aria-hidden="true"></i> Redis, Node.js, Handlebars.js
+                        </p>
+                    </a>
+                </li>
+            </ul>
+        </div>
+    </div>
+</section>
+
+<section id="footer">
+    <div class="container">
+        <div class="details">
+            <h2>CONTACTS</h2>
+            <p>Get in touch with me via:</p>
+        </div>
+        <div class="contacts">
+            <ul>
+                <li class="contact"><a href="mailto:seanjun21@gmail.com" target="_blank"><i class="fa fa-envelope fa-fw"></i>
+                    <span class="contact-info">seanjun21@gmail.com</span></a>
+                </li>
+                <li class="contact"><a href="docs/resume.pdf" target="_blank"><i class="fa fa-file-text fa-fw"></i>
+                    <span class="contact-info">Download Resume</span></a>
+                </li>
+                <li class="contact"><a href="https://github.com/seanjun21" target="_blank"><i class="fa fa-github fa-fw"></i>
+                    <span class="contact-info">github.com/seanjun21</span></a>
+                </li>
+                <li class="contact"><a href="https://www.linkedin.com/in/seanjun21" target="_blank"><i class="fa fa-linkedin fa-fw"></i>
+                    <span class="contact-info">linkedin.com/seanjun21</span></a>
+                </li>
+                <li class="contact"><a href="https://angel.co/seanjun21" target="_blank"><i class="fa fa-angellist fa-fw"></i>
+                    <span class="contact-info">angel.co/seanjun21</span></a>
+                </li>
+                <li class="contact"><a href="https://twitter.com/seanjun21" target="_blank"><i class="fa fa-twitter fa-fw"></i>
+                    <span class="contact-info">twitter.com/seanjun21</span></a>
+                </li>
+            </ul>
+        </div>
+        <p class="credits">
+            <i class="fa fa-copyright "></i> Sean Jun 2016
+        </p>
+    </div>
+</section>
+
+<script src="js/jquery-3.1.1.min.js"></script>
+<script src="js/script.js"></script>
+</body>
+</html>

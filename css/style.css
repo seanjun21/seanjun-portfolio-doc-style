@@ -1,0 +1,542 @@
+* {
+    box-sizing: border-box;
+}
+
+html, body {
+    -webkit-font-smoothing: antialiased;
+    height: 100%;
+    margin: 0;
+    font-family: 'Roboto', sans-serif;
+    font-weight: 400;
+    line-height: 1.5;
+    color: #06080D;
+}
+
+/* Navigation Bar */
+
+ul.topnav {
+    line-height: 1.15;
+    position: fixed;
+    z-index: 100;
+    top: 0;
+    width: 100%;
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+    overflow: hidden;
+    background: #9C1737;
+}
+
+ul.topnav li {
+    float: left;
+}
+
+ul.topnav li a {
+    display: inline-block;
+    color: #FFFFFF;
+    text-align: center;
+    padding: 14px 16px;
+    text-decoration: none;
+    transition: 0.3s;
+    font-weight: 700;
+    font-size: 17px;
+}
+
+ul.topnav li a:hover {
+    background: rgba(0, 0, 0, 0.15) !important;
+    color: #FFFFFF !important;
+    text-shadow: 1px 1px 1px #06080D;
+}
+
+ul.topnav li.icon {
+    display: none;
+}
+
+@media screen and (max-width: 680px) {
+    ul.topnav li:not(:first-child) {
+        display: none;
+    }
+
+    ul.topnav li.icon {
+        float: right;
+        display: inline-block;
+    }
+
+    ul.topnav.responsive {
+        position: fixed;
+        z-index: 100;
+        top: 0;
+        width: 100%;
+    }
+
+    ul.topnav.responsive li.icon {
+        position: absolute;
+        right: 0;
+        top: 0;
+    }
+
+    ul.topnav.responsive li {
+        float: none;
+        display: inline;
+    }
+
+    ul.topnav.responsive li a {
+        background: #9C1737;
+        display: block;
+        text-align: left;
+    }
+}
+
+/* Masthead Header */
+
+#masthead {
+    background: #0F2A56;
+    height: 100%;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+}
+
+.header {
+    color: #FFFFFF;
+    text-align: center;
+    margin: auto;
+    width: 90%;
+}
+
+.header h1 {
+    margin: 0;
+    font-size: 60px;
+    font-weight: 700;
+}
+
+.header h2 {
+    margin: 0;
+    font-size: 30px;
+    font-weight: 700;
+}
+
+.email {
+    margin-bottom: 20px;
+}
+
+.header a {
+    color: #FFFFFF;
+    text-decoration: none;
+    font-weight: 700;
+    font-size: 24px;
+}
+
+.header a:hover {
+    color: #FFD000;
+    text-shadow: 1px 1px 1px #06080D;
+}
+
+.contact-list {
+    padding: 0;
+    margin: 0;
+}
+
+ul.contact-list i {
+    color: #FFFFFF;
+    display: inline-block;
+    list-style: none;
+    font-size: 38px;
+    width: 60px;
+    height: 60px;
+    margin: 0.5%;
+    border: 0;
+    border-radius: 4px;
+    line-height: 60px;
+    transition: background 0.2s linear 0s;
+}
+
+ul.contact-list i:hover {
+    color: #FFD000;
+    background: rgba(0, 0, 0, 0.25);
+}
+
+/* About Section */
+
+#about {
+    background: #FFFFFF;
+    min-height: 100%;
+    text-align: center;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+}
+
+.container {
+    max-width: 67.5em;
+    margin-left: auto;
+    margin-right: auto;
+    padding: 5em 10px 5em;
+}
+
+.container, .profile, .resume-category:after {
+    clear: both;
+    content: "";
+    display: table;
+}
+
+.profile {
+    padding-bottom: 1em;
+}
+
+.picture {
+    float: left;
+    display: block;
+    width: 25%;
+}
+
+.my-picture {
+    display: block;
+    width: 150px;
+    height: 150px;
+    margin: 1em auto;
+    background-size: cover;
+    background: no-repeat center center;
+    border-radius: 99em;
+    box-shadow: 1px 1px 1px darkgrey;
+}
+
+.biography {
+    float: left;
+    width: 67%;
+    text-align: left;
+}
+
+.biography p {
+    margin: 0;
+    font-size: 20px;
+}
+
+.resume:after {
+    clear: both;
+    content: "";
+    display: table;
+}
+
+.resume-category {
+    width: 50%;
+    float: left;
+    margin: 0 0 1em 0;
+}
+
+.resume-icon i {
+    float: left;
+    font-size: 38px;
+    width: 60px;
+    height: 60px;
+    margin: 0.5%;
+    border: 0;
+    border-radius: 4px;
+    line-height: 60px;
+}
+
+.resume-icon .fa-code {
+    color: #9C1737;
+    text-shadow: 1px 1px 1px darkgrey;
+}
+
+.resume-desc .skills {
+    color: #9C1737;
+    text-shadow: 1px 1px 1px darkgrey;
+}
+
+.resume-icon .fa-code-fork {
+    color: #0F2A56;
+    text-shadow: 1px 1px 1px darkgrey;
+}
+
+.resume-desc .software {
+    color: #0F2A56;
+    text-shadow: 1px 1px 1px darkgrey;
+}
+
+.resume-icon .fa-graduation-cap {
+    color: #FFD000;
+    text-shadow: 1px 1px 1px grey;
+}
+
+.resume-desc .education {
+    color: #FFD000;
+    text-shadow: 1px 1px 1px grey;
+}
+
+.resume-icon .fa-briefcase {
+    color: #039DC3;
+    text-shadow: 1px 1px 1px darkgrey;
+}
+
+.resume-desc .experience {
+    color: #039DC3;
+    text-shadow: 1px 1px 1px darkgrey;
+}
+
+.resume-desc {
+    float: left;
+    text-align: left;
+    width: 80%;
+}
+
+.resume-desc h3 {
+    margin: 0;
+    padding-top: 1em;
+}
+
+.resume-desc ul {
+    padding: 0;
+    margin: 0;
+}
+
+.resume-desc li {
+    list-style: none;
+    margin: 0.2em 0;
+}
+
+.resume-desc h4, p {
+    margin: 0;
+}
+
+.resume-desc ul span {
+    color: gray;
+    font-size: 0.7em;
+}
+
+.resume-link {
+    color: #039DC3;
+    text-decoration: none;
+}
+
+.resume-link:hover {
+    text-shadow: 1px 1px 1px darkgrey;
+}
+
+@media screen and (max-width: 740px) {
+    .picture {
+        width: 100%;
+    }
+
+    .biography {
+        width: 100%;
+    }
+
+    .biography p {
+        margin: 0 4%;
+        text-align: center;
+    }
+
+    .quote {
+        padding: 0;
+    }
+
+    .resume-category {
+        width: 100%;
+    }
+}
+
+@media screen and (max-width: 335px) {
+    .resume-desc {
+        padding-left: 10px;
+    }
+
+    .resume-desc h3 {
+        padding-top: 0;
+    }
+}
+
+/* Projects Section */
+
+#projects {
+    background: #FFD000;
+    min-height: 100%;
+    text-align: center;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+}
+
+.details {
+    width: 100%;
+    margin-bottom: 2em;
+}
+
+.details h2 {
+    margin: 0;
+    font-weight: 700;
+    font-size: 36px;
+}
+
+.details p {
+    font-size: 15px;
+}
+
+.gallery ul {
+    margin: 0;
+    padding: 0;
+}
+
+.project {
+    display: inline-block;
+    width: 25%;
+    margin: 0 20px 40px;
+    min-width: 300px;
+    min-height: 280px;
+}
+
+@media screen and (max-width: 600px) {
+    .project {
+        width: inherit;
+        margin: 0 0 40px;
+    }
+}
+
+.project a {
+    display: block;
+}
+
+a.img {
+    border-top-left-radius: 2px;
+    border-top-right-radius: 2px;
+    background-color: #06080D;
+    height: 200px;
+    z-index: 10;
+    overflow: hidden;
+}
+
+a.img img {
+    border-top-left-radius: 2px;
+    border-top-right-radius: 2px;
+    left: 0;
+    min-height: 200px;
+    max-width: 300px;
+    width: 100%;
+    z-index: 10;
+}
+
+a.info {
+    font-size: 18px;
+    text-align: left;
+    color: #06080D;
+    background: rgba(255, 255, 255, 0.25);
+    bottom: 0;
+    display: inline-block;
+    width: 300px;
+    max-height: 51px;
+    padding: 50px 15px 60px 15px;
+    position: relative;
+    transition: all 1s;
+}
+
+a.info p {
+    position: absolute;
+}
+
+a.info p:first-child {
+    top: 7px;
+}
+
+a.info p:nth-child(2) {
+    font-size: 14px;
+    top: 35px;
+    padding-right: 15px;
+}
+
+a.img img:hover {
+    opacity: 1;
+    animation: flash 1.5s;
+}
+
+@keyframes flash {
+    0% {
+        opacity: 0.4;
+    }
+    100% {
+        opacity: 1;
+    }
+}
+
+a.info:hover {
+    background: rgba(255, 255, 255, 0.65);
+}
+
+/* Footer Section */
+
+#footer {
+    background: #039DC3;
+    min-height: 100%;
+    text-align: center;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    color: #FFFFFF;
+}
+
+.contacts ul {
+    display: inline-block;
+    margin: 0;
+    padding: 0;
+}
+
+.contact {
+    display: inline-block;
+    width: 33%;
+    min-width: 340px;
+    text-align: left;
+    padding-left: 6%;
+}
+
+.contact a {
+    text-decoration: none;
+    color: #FFFFFF;
+    font-size: 18px;
+}
+
+.contact a:hover {
+    color: #FFD000;
+    font-weight: 700;
+    text-shadow: 1px 1px 1px #06080D;
+}
+
+.contact a:hover i {
+    color: #FFD000;
+}
+
+.contact i {
+    display: inline-block;
+    list-style: none;
+    font-size: 38px;
+    width: 60px;
+    height: 60px;
+    margin: 0.5%;
+    border: 0;
+    border-radius: 4px;
+    line-height: 60px;
+    transition: background 0.2s linear 0s;
+}
+
+.contact i:hover {
+    color: #FFD000;
+    background: rgba(0, 0, 0, 0.25);
+}
+
+.credits {
+    margin-top: 3em;
+    font-size: 24px;
+}
+
+@media screen and (max-width: 705px) {
+    .contact-info {
+        display: none;
+    }
+
+    .contact {
+        text-align: center;
+        margin-top: 10px;
+        padding: 0;
+        min-width: inherit;
+        width: 30%;
+    }
+}
