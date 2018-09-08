@@ -2,6 +2,8 @@
 name: hero
 ---
 
-Welcome to My Knowledge Bank
+“Be alone, that is the secret of invention; be alone, that is when ideas are born.”
+
+― Nikola Tesla
 
 [more](./content)
