@@ -3,6 +3,10 @@ title: About
 categories: ['main']
 ---
 
-The Big Oxmox advised her not to do so, because there were thousands of bad Commas, wild Question Marks and devious Semikoli, but the Little Blind Text didn’t listen. She packed her seven versalia, put her initial into the belt and made herself on the way.
+Hi, I'm Sean, a full stack developer currently working at Digital Air Strike.
+I build web apps primarily with React/Redux, Express, NodeJS, and Mongo/Postgres.
+I believe that my past work and programming share something very important in common:
 
-Praesent accumsan odio in ante ullamcorper id pellentesque mauris rhoncus. Duis vitae neque dolor. Duis sed purus at eros bibendum cursus nec a nulla. Donec turpis quam, ultricies id pretium sit amet, gravida eget leo.
+_**"passionate work can greatly benefit our communities."**_
+
+It is my personal and professional goal to continue giving back as a developer.
