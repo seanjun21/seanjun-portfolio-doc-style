@@ -7,7 +7,6 @@ export const categories = [
   { name: 'projects', label: 'Projects', icon: SettingsIcon },
   { name: 'til', label: 'TIL', icon: GitBranchIcon },
   { name: 'contents', label: 'Contents', icon: ImageIcon },
-  { name: 'etc', label: 'Etc.', icon: FolderPlusIcon }
 ];
 
 export default categories;
