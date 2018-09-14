@@ -15,3 +15,9 @@ categories: ['til']
 
 - Organized DEVONthink A.I. related resources.
 - Got started on MITx: 6.00.1x; watched the introduction.
+
+# 12
+
+- Did interview with Simple Programmer for a case study.
+- Started waking up early for better productivity.
+- Changed layout of my website.
