@@ -6,9 +6,9 @@ categories: ['til']
 
 ## 12
 
-- Went to ASU for a panel talk
+- Went to ASU for a panel talk.
   - ![ASU panel talk](./0912_2018_asu.jpeg)
-- Met with Michael Jackson (creator of react-router) at React meetup
+- Met with Michael Jackson (creator of react-router) at React meetup.
   - ![React meetup](./0912_2018_react.jpg)
 
 ## 11
@@ -21,3 +21,8 @@ categories: ['til']
 - Did interview with Simple Programmer for a case study.
 - Started waking up early for better productivity.
 - Changed layout of my website.
+
+# 13
+
+- Worked on MIT course up to Video: Languages.
+- Played soccer with friends for exercise activity.
