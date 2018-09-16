@@ -4,6 +4,17 @@ shortTitle: Sept 2018
 categories: ['til']
 ---
 
+## 14
+
+- Worked on MIT course up to Video: Languages.
+- Played soccer with friends for exercise activity.
+
+## 13
+
+- Did interview with Simple Programmer for a case study.
+- Started waking up early for better productivity.
+- Changed layout of my website.
+
 ## 12
 
 - Went to ASU for a panel talk.
@@ -15,14 +26,3 @@ categories: ['til']
 
 - Organized DEVONthink A.I. related resources.
 - Got started on MITx: 6.00.1x; watched the introduction.
-
-# 12
-
-- Did interview with Simple Programmer for a case study.
-- Started waking up early for better productivity.
-- Changed layout of my website.
-
-# 13
-
-- Worked on MIT course up to Video: Languages.
-- Played soccer with friends for exercise activity.
