@@ -5,7 +5,7 @@ categories: ['main']
 
 ![Sean profile](./seanjun-autumn.jpg)
 
-Hi, I'm Sean, a full stack developer currently working at Digital Air Strike.
+Hi, I'm Sean Jun, a full stack developer currently working at Digital Air Strike.
 I build web apps primarily with React/Redux, Express, NodeJS, and Mongo/Postgres.
 I believe that my past work and programming share something very important in common:
 
