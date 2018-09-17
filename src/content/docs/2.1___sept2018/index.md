@@ -4,6 +4,11 @@ shortTitle: Sept 2018
 categories: ['til']
 ---
 
+## 16
+
+- Studied and reviewed React/Redux.
+- Back on Modern React with Redux course by Stephen Grider.
+
 ## 15
 
 - Updated resume section in `About` page.
