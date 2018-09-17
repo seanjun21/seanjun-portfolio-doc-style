@@ -4,6 +4,11 @@ shortTitle: Sept 2018
 categories: ['til']
 ---
 
+## 15
+
+- Updated resume section in `About` page.
+- Successfully deployed my website to netlify.
+
 ## 14
 
 - Worked on MIT course up to Video: Languages.
