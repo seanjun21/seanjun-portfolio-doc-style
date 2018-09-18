@@ -4,6 +4,10 @@ shortTitle: Sept 2018
 categories: ['til']
 ---
 
+## 17
+
+- Continue to review React/Redux using YouTube resources.
+
 ## 16
 
 - Studied and reviewed React/Redux.
