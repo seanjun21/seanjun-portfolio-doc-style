@@ -7,7 +7,7 @@ categories: ['til']
 ## 18
 
 - [MRR] 22 Refactoring Functional Components to Class Components.
-- Finished reviewing React/Redux.
+- Found a great [YouTube channel](https://www.youtube.com/channel/UC0BAd8tPlDqFvDYBemHcQPQ) for React/Redux.
 
 ## 17
 
