@@ -4,6 +4,11 @@ shortTitle: Sept 2018
 categories: ['til']
 ---
 
+## 18
+
+- [MRR] 22 Refactoring Functional Components to Class Components
+- Finished reviewing React/Redux
+
 ## 17
 
 - Continue to review React/Redux using YouTube resources.
