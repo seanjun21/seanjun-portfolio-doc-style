@@ -6,8 +6,8 @@ categories: ['til']
 
 ## 18
 
-- [MRR] 22 Refactoring Functional Components to Class Components
-- Finished reviewing React/Redux
+- [MRR] 22 Refactoring Functional Components to Class Components.
+- Finished reviewing React/Redux.
 
 ## 17
 
