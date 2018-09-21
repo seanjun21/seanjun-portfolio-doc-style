@@ -4,6 +4,11 @@ shortTitle: Sept 2018
 categories: ['til']
 ---
 
+## 20
+
+- Worked on MJML project.
+- Learned about vw/vh. Implemented inside the project.
+
 ## 19
 
 - [MRR] 25 List Item Keys.
