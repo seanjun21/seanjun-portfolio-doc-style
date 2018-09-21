@@ -4,6 +4,11 @@ shortTitle: Sept 2018
 categories: ['til']
 ---
 
+## 19
+
+- [MRR] 25 List Item Keys.
+- Learned about colspan CSS.
+
 ## 18
 
 - [MRR] 22 Refactoring Functional Components to Class Components.
