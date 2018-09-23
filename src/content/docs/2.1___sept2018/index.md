@@ -4,10 +4,15 @@ shortTitle: Sept 2018
 categories: ['til']
 ---
 
+## 21
+
+- Finished MJML project.
+- Had a good conversation about my next entrepreneur idea.
+
 ## 20
 
 - Worked on MJML project.
-- Learned about vw/vh. Implemented inside the project.
+- Learned about vw/vh.
 
 ## 19
 
