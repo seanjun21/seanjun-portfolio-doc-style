@@ -8,6 +8,7 @@ categories: ['til']
 
 - Finished MJML project.
 - Had a good conversation about my next entrepreneur idea.
+- New Gatsby starter came out, might be inclined to migrate.
 
 ## 20
 
