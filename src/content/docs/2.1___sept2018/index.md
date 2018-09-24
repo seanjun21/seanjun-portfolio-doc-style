@@ -4,6 +4,14 @@ shortTitle: Sept 2018
 categories: ['til']
 ---
 
+## 23
+
+- [MRR] 33 React Wrapup.
+
+## 22
+
+- [MRR] 29 Video Selection.
+
 ## 21
 
 - Finished MJML project.
