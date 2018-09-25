@@ -4,6 +4,12 @@ shortTitle: Sept 2018
 categories: ['til']
 ---
 
+## 24
+
+- Met with Thinkful student admission team.
+- Debugged chart.js projects: their workflow around plugin needs to be fixed.
+- Shot 2nd video for YouTube channel - got deleted :|
+
 ## 23
 
 - [MRR] 33 React Wrapup.
@@ -15,7 +21,7 @@ categories: ['til']
 ## 21
 
 - Finished MJML project.
-- Had a good conversation about my next entrepreneur idea.
+- Had a good conversation with coworkers about my next business ideas.
 - New Gatsby starter came out, might be inclined to migrate.
 
 ## 20
@@ -45,7 +51,7 @@ categories: ['til']
 ## 15
 
 - Updated resume section in `About` page.
-- Successfully deployed my website to netlify.
+- Successfully deployed my website to Netlify.
 
 ## 14
 
