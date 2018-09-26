@@ -2,8 +2,8 @@
 name: hero
 ---
 
-“Be alone, that is the secret of invention; be alone, that is when ideas are born.”
+“Be kind whenever possible. It is always possible.”
 
-― Nikola Tesla
+― 14th Dalai Lama
 
 [more](./content)
