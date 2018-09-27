@@ -4,6 +4,11 @@ shortTitle: Sept 2018
 categories: ['til']
 ---
 
+## 25
+
+- Screen recorded another version of yesterday's video.
+- Successfully published my first video on `JUMP//CODE` channel.
+
 ## 24
 
 - Met with Thinkful student admission team.
