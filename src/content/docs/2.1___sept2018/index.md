@@ -4,6 +4,10 @@ shortTitle: Sept 2018
 categories: ['til']
 ---
 
+## 26
+
+- Back on MIT course week 1.
+
 ## 25
 
 - Screen recorded another version of yesterday's video.
