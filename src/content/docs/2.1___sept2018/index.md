@@ -4,6 +4,10 @@ shortTitle: Sept 2018
 categories: ['til']
 ---
 
+## 27
+
+- [MRR] 37 Even More on Redux!
+
 ## 26
 
 - Back on MIT course week 1.
