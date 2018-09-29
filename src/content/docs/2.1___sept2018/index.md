@@ -4,6 +4,10 @@ shortTitle: Sept 2018
 categories: ['til']
 ---
 
+## 28
+
+- Back on React/Redux project. Learned how to setup pages on Next.js
+
 ## 27
 
 - [MRR] 37 Even More on Redux!
