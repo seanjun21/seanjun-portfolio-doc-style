@@ -4,6 +4,14 @@ shortTitle: Sept 2018
 categories: ['til']
 ---
 
+## 30
+
+- [MRR] 40 Containers - Connecting Redux to React
+
+## 29
+
+- [MRR] 39 Reducers
+
 ## 28
 
 - Back on React/Redux project. Learned how to setup pages on Next.js
@@ -63,7 +71,7 @@ categories: ['til']
 ## 16
 
 - Studied and reviewed React/Redux.
-- Back on Modern React with Redux course by Stephen Grider.
+- Back on Modern React with Redux [MRR] course by Stephen Grider.
 
 ## 15
 
