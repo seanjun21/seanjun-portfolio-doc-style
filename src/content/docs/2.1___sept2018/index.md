@@ -7,6 +7,7 @@ categories: ['til']
 ## 30
 
 - [MRR] 40 Containers - Connecting Redux to React
+- Read Gatsby DOC
 
 ## 29
 
