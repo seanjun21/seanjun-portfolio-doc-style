@@ -4,10 +4,14 @@ shortTitle: Oct 2018
 categories: ['til']
 ---
 
+## 5
+
+- Wrapped up MJML project.
+
 ## 4
 
 - Provided co-working space at my house.
-- Finished MJML project, learned a lot about EDM (Electronic Direct Mail) Programming.
+- Another MJML project, learned a lot about EDM (Electronic Direct Mail) Programming.
 
 ## 3
 
