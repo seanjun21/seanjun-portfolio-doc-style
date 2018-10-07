@@ -4,6 +4,11 @@ shortTitle: Oct 2018
 categories: ['til']
 ---
 
+## 6
+
+- Flew to Korea.
+- Watched tutorials (redux-saga) during flight.
+
 ## 5
 
 - Wrapped up MJML project.
